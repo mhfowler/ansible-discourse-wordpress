@@ -4,3 +4,5 @@ playbooks/roles/discourse/files/ssl.crt
 playbooks/roles/discourse/files/ssl.key
 playbooks/roles/discourse/files/backup.cron.sh
 playbooks/*.retry
+secrets*
+secrets/*

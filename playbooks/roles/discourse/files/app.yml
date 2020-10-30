@@ -1,0 +1,5 @@
+# app.yml
+
+env:
+  DISCOURSE_DB_HOST: hyphalfusion.network
+  DISCOURSE_DB_NAME: hyphalfusion_discourse

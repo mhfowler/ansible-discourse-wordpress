@@ -1,0 +1,10 @@
+---
+- name: Install nginx site for specified site
+  template:
+    src: templates/landing
+    dest: /etc/nginx/sites-enabled/landing
+
+- name: Install nginx site for specified site
+  template:
+    src: templates/ip
+    dest: /etc/nginx/sites-enabled/ip

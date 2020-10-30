@@ -4,31 +4,31 @@
   args:
     chdir: "{{ discourse_location }}"
   ignore_errors: yes
-  sudo: yes
+  become: yes
 
 - name: start discourse
   command: ./launcher start app
   args:
     chdir: "{{ discourse_location }}"
   ignore_errors: yes
-  sudo: yes
+  become: yes
 
 - name: restart discourse
   command: ./launcher restart app
   args:
     chdir: "{{ discourse_location }}"
   ignore_errors: yes
-  sudo: yes
+  become: yes
 
 - name: rebuild discourse
   command: ./launcher rebuild app
   args:
     chdir: "{{ discourse_location }}"
   ignore_errors: yes
-  sudo: yes
+  become: yes
 
 - name: bootstrap discourse
   command: ./launcher bootstrap app
   args:
     chdir: "{{ discourse_location }}"
-  sudo: yes
+  become: yes

@@ -1,0 +1,1 @@
+rsync -avzh -e "ssh -i secrets/do_rsa" root@157.230.28.186:/var/discourse/shared/standalone/backups/default/ ../hyphal-fusion-backups/
