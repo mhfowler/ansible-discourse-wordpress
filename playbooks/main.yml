@@ -5,6 +5,7 @@
     ansible_user: ubuntu
   vars_files:
     - vars/main.yml
+    - vars/secret.yml
   roles:
     - docker
     - discourse

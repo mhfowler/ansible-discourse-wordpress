@@ -16,7 +16,7 @@
     update: no
 
 - name: copy discourse configuration app.yml
-  copy:
+  template:
     src: app.yml
     dest: "{{ discourse_location }}/containers/app.yml"
     owner: discourse

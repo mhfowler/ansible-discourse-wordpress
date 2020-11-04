@@ -6,3 +6,4 @@ playbooks/roles/discourse/files/backup.cron.sh
 playbooks/*.retry
 secrets*
 secrets/*
+secret.yml

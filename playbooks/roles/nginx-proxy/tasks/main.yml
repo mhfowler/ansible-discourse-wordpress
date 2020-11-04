@@ -8,3 +8,9 @@
   template:
     src: templates/ip
     dest: /etc/nginx/sites-enabled/ip
+
+- name: Install nginx site for specified site
+  template:
+    src: templates/discourse
+    dest: /etc/nginx/sites-enabled/hyphalfusion.network
+
